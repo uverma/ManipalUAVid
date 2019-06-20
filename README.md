@@ -1,4 +1,4 @@
-# ManipalUAVid
+## ManipalUAVid
 Finely Annonated UAV Aerial Video Dataset for Semantic Segmentation
 
 
