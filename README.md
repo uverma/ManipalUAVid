@@ -7,7 +7,42 @@ In the last few years, Unmanned Aerial Vehicles (UAV) have been used for various
 
 ## Dataset Details
 
-Few sample images and the corresponding annotations are shown below. 
+Few sample images and the corresponding annotation are shown below. 
+![alt text](https://github.com/uverma/ManipalUAVid/blob/master/f_168.jpg)
+![alt text](https://github.com/uverma/ManipalUAVid/blob/master/label_f_168.png)
+
+
+![alt text](https://github.com/uverma/ManipalUAVid/blob/master/frame191.jpg)
+![alt text](https://github.com/uverma/ManipalUAVid/blob/master/label_frame191.png)
+
+
+![alt text](https://github.com/uverma/ManipalUAVid/blob/master/85.png)
+![alt text](https://github.com/uverma/ManipalUAVid/blob/master/label_85.png)
+
+The four class ground truth as per our labelling policy is provided in JSON file using the LabelMe tool. The JSON file for each image contains details of each annotated regions. This information includes class label assigned to each region, along with the coordinates (pixel location) of all points of the polygon used to mark the region. A sample file is shown below:
+
+> "label": "greenery",
+>      "line_color": null,
+>      "fill_color": null,
+>      "points": \[
+        \[
+          439,
+          347
+        ],
+        \[
+          453,
+          343
+     ],
+     \[
+          418,
+          329
+        ]
+      ],
+      "shape_type": "polygon"
+    }
+
+
+
 
 
 
@@ -15,6 +50,10 @@ Few sample images and the corresponding annotations are shown below.
 ## Download: 
 This dataset is made available for academic research purpose only, and should not be used for any commercial purpose. To download the dataset, please fill the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScGsutUkmxbZIaiJxsknezz-rd-OuhUfFZRML6RInolf9UlxA/viewform). The link to download the dataset shall be shared to your email address.
 
+
+## Reference:
+
+B. C. Russell, A. Torralba, K. P. Murphy, W. T. Freeman. LabelMe: a Database and Web-based Tool for Image Annotation. International Journal of Computer Vision, 77(1-3):157-173, 2008
 
 
 
