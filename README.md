@@ -50,6 +50,10 @@ The four class ground truth as per our labelling policy is provided in JSON file
 ## Download: 
 This dataset is made available for academic research purpose only, and should not be used for any commercial purpose. To download the dataset, please fill the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScGsutUkmxbZIaiJxsknezz-rd-OuhUfFZRML6RInolf9UlxA/viewform). The link to download the dataset shall be shared to your email address.
 
+Please cite the following  article if you intend to use this dataset:
+> S. Girisha, M. M. M. Pai, U. Verma and R. M. Pai, "Performance Analysis of Semantic Segmentation Algorithms for Finely Annotated New UAV Aerial Video Dataset (ManipalUAVid)," in IEEE Access, vol. 7, pp. 136239-136253, 2019.
+doi: 10.1109/ACCESS.2019.2941026
+
 
 ## Reference:
 
