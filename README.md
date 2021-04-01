@@ -5,7 +5,7 @@ Finely Annotated UAV Aerial Video Dataset for Semantic Segmentation
 In the last few years, Unmanned Aerial Vehicles (UAV) have been used for various applications such as object detection and tracking, action recognition, etc. There exist different datasets for evaluating the performance of these tasks. However, there is no standard dataset with fine annotation for semantic segmentation of UAV aerial videos. In this work, a new UAV aerial video dataset is developed for semantic segmentation. This dataset contains aerial videos of a closed campus (Manipal Institute of Technology, India) captured using DJI Phantom 3 Professional drone with 1280 x 720 resolution. We provide a four-class fine annotation (Greenery, Construction, Road, and Water Bodies) describing the general layout of the scene. 
 
 ## Update
- 31st March 2021: Our updated dataset and new network incorporating temporal information in encoder-decoder based CNN is accepted in IEEE-JSTARS (https://doi.org/10.1109/JSTARS.2021.3069909). 
+ 31st March 2021: Our updated dataset and new approach incorporating temporal information in encoder-decoder based CNN is accepted in IEEE-JSTARS (https://doi.org/10.1109/JSTARS.2021.3069909). 
  
 ## Dataset Details
 
@@ -52,9 +52,13 @@ The four class ground truth as per our labelling policy is provided in JSON file
 ## Download: 
 This dataset is made available for academic research purpose only, and should not be used for any commercial purpose. To download the dataset, please fill the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScGsutUkmxbZIaiJxsknezz-rd-OuhUfFZRML6RInolf9UlxA/viewform). The link to download the dataset shall be shared to your email address.
 
-Please cite the following  article if you intend to use this dataset:
+Please cite the following  articles if you intend to use this dataset:
 > S. Girisha, M. M. M. Pai, U. Verma and R. M. Pai, "Performance Analysis of Semantic Segmentation Algorithms for Finely Annotated New UAV Aerial Video Dataset (ManipalUAVid)," in IEEE Access, vol. 7, pp. 136239-136253, 2019.
 doi: 10.1109/ACCESS.2019.2941026
+
+> Girisha S, U. Verma, M. Pai and R. M. Pai, "UVid-Net: Enhanced Semantic Segmentation of UAV Aerial Videos by Embedding Temporal Information," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, doi: 10.1109/JSTARS.2021.3069909.
+
+
 
 
 ## Reference:
